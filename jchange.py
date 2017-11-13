@@ -45,6 +45,3 @@ def change_hiragana(given_date,x,goo_api_id):
     json.dump(responses.content,save_file)
     save_file.close()
     print("Your date was changed into 'hiragana only'.Successflly saved as 'hiragana.json'")
-
-get_japanese_date("jawiki-latest-all-titles-in-ns0")
-change_hiragana("japanese.json",3000,"212ddcfeb4b83a547a2fff60b117d2735babf01080854f1197bd7bfea6fb5a2d")
